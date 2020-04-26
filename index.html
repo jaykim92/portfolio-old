@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay Kim Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- background img with text overlay -->
+    <section class='hero is-relative is-fullheight cover-img'>
+      <div class="container has-text-centered" id='description-container'>
+        <h1 class='name has-text-white'>Jay Kim</h1>
+        <p class='has-text-centered has-text-white'>designer & developer</p>
+        <hr class='solid'>
+        <div class="columns">
+          <div class="column has-text-centered">
+            <a href="#portfolio" class='has-text-white'>Portfolio</a>
+          </div>
+          <div class="column has-text-centered">
+            <a href="#contact" class=has-text-white>Contact</a>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- portfolio section -->
+  <div class='section-container'>
+    <h1 class='descr' id='portfolio'>Selected Works</h1>
+  </div>
+  <!-- portfolio one -->
+  <section class="hero is-relative is-fullheight" data-aos='fade-up' data-aos-duration='700' id='portfolio-img-one'>
+      <div class="columns custom-padding-top">
+        <div class="column has-text-left custom-margin-left" data-aos='zoom-in-right' data-aos-duration='800'>
+          <h2 class='has-text-white descr-title'>01: In-or-Out</h2>
+          <a href="https://tyrodriguez.github.io/In-Or-Out.io/" class='has-text-grey'><p>application</p></a>
+          <a href="https://github.com/TyRodriguez/In-Or-Out.io" class='has-text-grey'><p>repository</p></a>
+        </div>
+        <div class="column">
+          <figure class="image is-3by2" data-aos="zoom-in-left" data-aos-duration="800">
+            <img src="./assets/inorout.png">
+          </figure>
+        </div>
+    </div>
+  </section>
+  <!-- portfolio two -->
+  <section class='hero is-relative is-fullheight custom-margin-top' data-aos='fade-up' data-aos-duration='700' id='portfolio-img-two'>
+    <div class="columns custom-padding-top">
+      <div class="column">
+        <figure class="image is-3by2" data-aos='zoom-in-right' data-aos-duration='800'>
+          <img src="./assets/day-planner.png">
+        </figure>
+      </div>
+      <div class="column has-text-right custom-margin-right" data-aos='zoom-in-left' data-aos-duration='800'>
+        <h2 class='has-text-info descr-title'>02: Day Planner</h2>
+        <a href="https://jaykim92.github.io/day-planner.io/"><p>application</p></a>
+        <a href='https://github.com/jaykim92/day-planner.io'><p>repository</p></a>
+      </div>
+    </div>
+  </section>
+    <!-- portfolio three -->
+    <section class='hero is-relative is-fullheight custom-margin-top' id='portfolio-img-three' data-aos='fade-up' data-aos-duration='700'>
+      <div class="columns custom-padding-top">
+        <div class="column has-text-left custom-margin-left" data-aos='zoom-in-right' data-aos-duration='800'>
+          <h2 class='has-text-white descr-title'>03: Weather Dashboard</h2>
+          <a href="https://jaykim92.github.io/weather-dashboard-API.io/"><p class='has-text-black'>application</p></a>
+          <a href="https://github.com/jaykim92/weather-dashboard-API.io"><p class='has-text-black'>repository</p></a>
+        </div>
+        <div class="column">
+          <figure class="image is-3by2" data-aos='zoom-in-left' data-aos-duration='800'>
+            <img src="./assets/weather-dashboard.png">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+  <!-- contact info -->
+  <div class='section-container'>
+    <h1 class='descr'>Contact</h1>
+  </div>
+  <section class="section">
+    <div class="container" id="contact">
+      <div class="columns">
+        <div class="column has-text-centered">
+          <p>Jay Kim</p>
+          <p><span class="fas fa-envelope"></span> jaykim92@gmail.com</p>
+          <p><span class="fas fa-mobile-alt"></span> 310-800-3902</p>
+        </div>
+        <div class="column has-text-centered">
+          <p><a href="https://www.linkedin.com/in/jay-kim-32a9136b/">LinkedIn</a></p>
+          <p><a href="https://github.com/jaykim92">GitHub</a></p>
+          <p><a href="./assets/Jay Kim.pdf">Resume</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- initialize animate on scroll library -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="./script.js"></script>
+</body>
+</html>
